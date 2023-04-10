@@ -4,7 +4,7 @@ import Weather from "./components/weather";
 import "./app.css";
 export default function App() {
   async function getData(cityName) {
-    const key = process.env.REACT_APP_WEATHER_API_KEY;
+    const key = "c1a3d86b8c430b91556bafd04c421277";
     try {
       const { data } = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`
