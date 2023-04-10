@@ -1,4 +1,3 @@
-import { useFormik } from "formik";
 import React, { useState } from "react";
 import {
   BsClouds,
@@ -6,7 +5,6 @@ import {
   BsFillCloudsFill,
   BsFillCloudHaze2Fill,
   BsCloudSun,
-  BsFillSunFill,
 } from "react-icons/bs";
 import { FaCloudShowersHeavy } from "react-icons/fa";
 import { TiCloudStorageOutline } from "react-icons/ti";
