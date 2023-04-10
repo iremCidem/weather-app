@@ -1,0 +1,17 @@
+.bg{
+height: 100vh;
+
+}
+.bg:before{
+content: "";
+background-image: linear-gradient(rgba(163, 17, 17, 0.5), rgba(0, 0, 0, 0.5)), url("./images/background.png");
+    
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
